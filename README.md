@@ -45,7 +45,7 @@ An independent, unofficial reference page made for my own community. It covers t
 
 ## 技術說明 / Technical notes
 
-- 單一檔案 `index.html`:純 HTML + CSS + JavaScript,冇 build step、冇後端、冇追蹤。
+- 主頁係單一檔案 `index.html`(另有 favicon 圖示檔:`favicon.svg`、`favicon-32.png`、`apple-touch-icon.png`、`icon-192.png`):純 HTML + CSS + JavaScript,冇 build step、冇後端、冇追蹤。
 - Single static file — no build step, no backend, no analytics.
 - 候選人相片同黨徽係由原本公開來源載入(遠端圖片),要上網先睇到。
 - Candidate photos and party logos are loaded remotely from their original public sources, so they need a network connection.
