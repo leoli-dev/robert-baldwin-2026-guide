@@ -32,7 +32,8 @@ Your polling place depends on your address, so it is not listed here. Use the of
 
 ## Technical notes
 
-- A single static page, `index.html`: plain HTML, CSS and JavaScript. No build step, no backend, no analytics, and no personal data collected.
+- A single static page, `index.html`: plain HTML, CSS and JavaScript. No build step and no backend. The page has no advertisements and no forms that collect personal data.
+- Visit statistics are collected with Google Analytics (GA4) and used for that purpose only. The page states this in its privacy note.
 - The official district map is a static render of page 1 of the Élections Québec 2026 Île-de-Montréal PDF, stored at `assets/map-montreal.jpg`. The original PDF and the official interactive map are linked from the page.
 - Candidate photos and party logos are loaded remotely from their original public sources, so they need a network connection.
 - Favicon files: `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png` and `icon-192.png`.
